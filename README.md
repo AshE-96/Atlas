@@ -63,7 +63,7 @@ To run ATLAS locally, follow these steps:
 
 1.  **Prerequisites:** Ensure you have Python 3.11 installed on your system. You can download Python from [https://www.python.org/](https://www.python.org/).2.  **Clone the Repository:**
     ```bash
-    git clone [repository URL here] # Replace with your repository URL, e.g., git clone https://github.com/YourUsername/atlas.git
+   git clone https://github.com/AshE-96/atlas.git
     cd atlas
     ```
 
@@ -73,13 +73,11 @@ To run ATLAS locally, follow these steps:
     ```
     *(It is recommended to use a virtual environment to manage project dependencies. You can create one using `python -m venv venv` and activate it with `source venv/bin/activate` on Linux/macOS or `venv\Scripts\activate` on Windows before running the `pip install` command.)*
 
-    **A `requirements.txt` file is included in the repository for easy installation of all dependencies.**
 
 4.  **Run ATLAS:** Execute the main application script from your terminal:
     ```bash
-    python your_atlas_script_name.py  # e.g., python atlas.py or python main.py
+   python atlas.py
     ```
-    *(Replace `your_atlas_script_name.py` with the actual name of your main Python script file if it's not `atlas.py`.)*
 
 ## Usage
 
@@ -97,7 +95,7 @@ Once ATLAS is running, you will be presented with the main menu. Use the numbere
 
 **Example Workflow:**
 
-1.  **Start ATLAS:** Run `python your_atlas_script_name.py` in your terminal.
+1.  **Start ATLAS:** Run `python atlas.py` in your terminal.
 2.  **Add Carriers:** Use option `1` to add a few carriers with their respective capacities (e.g., Carrier A - 1000kg, Carrier B - 500kg).
 3.  **Bulk Import Packages:** Use option `6` to import packages from a `packages.csv` file or manually add packages using option `2`.
 4.  **Generate Loading Plan:** Select option `7` to create an optimized loading plan. Review the plan and choose to execute it.
